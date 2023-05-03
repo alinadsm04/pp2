@@ -54,7 +54,7 @@ def getDataFromPagination():
     data = cur.fetchall()
     k = 1
     for i in data:
-        print(f"{k}.Name: {i[1]}, number: {i[2]}")
+        print(f"{k}.Name: {i[0]}, number: {i[1]}")
         k += 1
     # print(data)
 
